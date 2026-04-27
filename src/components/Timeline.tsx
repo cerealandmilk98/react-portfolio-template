@@ -1,65 +1,76 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase, faCode } from "@fortawesome/free-solid-svg-icons";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import "../assets/styles/Timeline.scss";
 
 function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experience & Projects</h1>
+
         <VerticalTimeline>
+          {/* CURRENT */}
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="2025 - Present"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3>Frontend Developer (Self-Directed)</h3>
+            <h4>Tulsa, OK</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Building and deploying modern web applications using React and
+              JavaScript. Focused on developing responsive user interfaces,
+              integrating APIs, and improving performance and user experience.
             </p>
           </VerticalTimelineElement>
+
+          {/* PROJECT */}
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="2025"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3>Movie API App</h3>
+            <h4>Personal Project</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Developed a movie discovery application using a public API.
+              Implemented dynamic data fetching, loading states, error handling,
+              and responsive UI design.
             </p>
           </VerticalTimelineElement>
+
+          {/* PROJECT */}
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="2025"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3>Task Manager App</h3>
+            <h4>Personal Project</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Built a task management application with interactive UI
+              components, state management, and clean component architecture.
             </p>
           </VerticalTimelineElement>
+
+          {/* OTHER WORK */}
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Previous"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3>Customer Service / Hospitality</h3>
+            <h4>Various Roles</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Developed strong communication, problem-solving, and teamwork
+              skills while working in fast-paced environments.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
