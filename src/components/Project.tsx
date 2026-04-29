@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/styles/Project.scss";
 
-import mock01 from "../assets/images/Screenshot 2026-04-24 at 9.55.43 PM.png";
-import mock02 from "../assets/images/Screenshot 2026-04-24 at 9.58.43 PM.png";
-import mock03 from "../assets/images/Screenshot 2026-04-24 at 10.00.11 PM.png";
+import mock01 from "../assets/images/Click Here.png";
+import mock02 from "../assets/images/Click Here-2.png";
+import mock03 from "../assets/images/Click Here-3.png";
 
 function Project() {
   return (

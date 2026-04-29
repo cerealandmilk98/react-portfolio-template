@@ -22,12 +22,13 @@ function Timeline() {
             iconStyle={{ background: "#5000ca", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3>Frontend Developer (Self-Directed)</h3>
+            <h3>Frontend Developer</h3>
             <h4>Tulsa, OK</h4>
             <p>
               Building and deploying modern web applications using React and
-              JavaScript. Focused on developing responsive user interfaces,
-              integrating APIs, and improving performance and user experience.
+              JavaScript. Experienced in developing responsive user interfaces,
+              integrating APIs, and optimizing performance to enhance user
+              experience.
             </p>
           </VerticalTimelineElement>
 

@@ -91,17 +91,17 @@ function Expertise() {
           {/* LEARNING */}
           <div className="skill">
             <FontAwesomeIcon icon={faCode} size="3x" />
-            <h3>Currently Improving</h3>
+            <h3>Core Expertise</h3>
             <p>
-              I am actively expanding my frontend skill set by learning advanced
-              React patterns, improving performance optimization techniques, and
-              building more scalable applications.
+              Experienced in building modern frontend applications with React,
+              focusing on scalable architecture, performance optimization, and
+              responsive UI design.
             </p>
 
             <p>
-              I’m also focusing on strengthening my understanding of API
-              architecture, modern frameworks like Next.js, and UI/UX best
-              practices to deliver better user experiences.
+              Continuously refining advanced React patterns, API integration
+              strategies, and UI/UX best practices to deliver high-quality user
+              experiences.
             </p>
 
             <div className="flex-chips">
